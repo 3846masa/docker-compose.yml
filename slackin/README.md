@@ -1,6 +1,8 @@
 # slackin
 
-https://github.com/rauchg/slackin
+[Product Page](https://github.com/rauchg/slackin)
+
+[Docker Hub](https://hub.docker.com/r/chk1/slackin/)
 
 ## SLACK\_ORG and SLACK\_TOKEN env
 
