@@ -1,0 +1,8 @@
+main:
+  image: gogs/gogs
+  volumes:
+    - "/data/git-gogs:/data"
+  environment:
+    VIRTUAL_HOST: gogs.example.com
+    VIRTUAL_PORT: 3000
+

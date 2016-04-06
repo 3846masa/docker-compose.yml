@@ -1,0 +1,10 @@
+main:
+  image: pottava/docker-webui
+  volumes:
+    - /var/run/docker.sock:/var/run/docker.sock:ro
+  environment:
+    VIRTUAL_HOST: docker.example.com
+    VIRTUAL_PORT: 9000
+    DOCKER_HOST: unix:///var/run/docker.sock
+    APP_VIEW_ONLY: "true"
+

@@ -1,0 +1,10 @@
+rainloop:
+  image: jprjr/rainloop
+  environment:
+    VIRTUAL_HOST: webmail.example.com
+    NGINX: 1
+  expose:
+    - 80
+  volumes:
+    - "/data/rainloop:/var/lib/rainloop/data"
+

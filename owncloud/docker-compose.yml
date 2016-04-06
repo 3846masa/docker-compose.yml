@@ -1,0 +1,10 @@
+host:
+  image: jchaney/owncloud
+  environment:
+    VIRTUAL_HOST: own.example.com
+    OWNCLOUD_SERVERNAME: own.example.com
+    OWNCLOUD_IN_ROOTPATH: 1
+  volumes:
+    - "/data/owncloud/data:/var/www/owncloud/data"
+    - "/data/owncloud/additional_apps:/var/www/owncloud/apps_persistent"
+    - "/data/owncloud/config:/owncloud"
