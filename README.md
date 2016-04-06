@@ -11,7 +11,7 @@ docker-compose files.
 
 You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 
-## Products
+## Supported products
 
 - [nginx-proxy and letsencrypt](./proxy)
 - [Gogs (Git service)](./gogs)
