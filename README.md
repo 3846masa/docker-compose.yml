@@ -17,5 +17,6 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 - [Gogs (Git service)](./gogs)
 - [Owncloud (Web storage)](./owncloud)
 - [Rainloop (Web mailer)](./rainloop)
+- [slackin](./slackin)
 - [docker-webui](./docker-webui)
 

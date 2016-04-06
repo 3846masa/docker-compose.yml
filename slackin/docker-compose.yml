@@ -1,0 +1,10 @@
+main:
+  image: chk1/slackin
+  environment:
+    VIRTUAL_HOST: slackin.example.com
+    VIRTUAL_PORT: 3000
+    SLACK_TOKEN: YOUR_SLACK_TOKEN
+    SLACK_ORG: YOUR_SLACK_TEAM_NAME
+  expose:
+    - 3000
+
