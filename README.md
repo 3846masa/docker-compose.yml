@@ -15,6 +15,7 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 
 - [nginx-proxy and letsencrypt](./proxy)
 - [Gogs (Git service)](./gogs)
+- [wekan (Kanban service)](./wekan)
 - [Owncloud (Web storage)](./owncloud)
 - [Rainloop (Web mailer)](./rainloop)
 - [slackin](./slackin)

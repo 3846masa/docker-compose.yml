@@ -1,0 +1,16 @@
+main:
+  image: mquandalle/wekan
+  restart: always
+  links:
+    - "database:wekandb"
+  environment:
+    MONGO_URL: "mongodb://wekandb/wekan"
+    ROOT_URL: "https://wekan.example.com"
+    VIRTUAL_HOST: wekan.example.com
+
+database:
+  image: mongo
+  restart: always
+  volumes:
+    - "/data/wekan:/data/db"
+
