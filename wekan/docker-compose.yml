@@ -11,6 +11,7 @@ main:
 database:
   image: mongo
   restart: always
+  command: mongod --smallfiles
   volumes:
     - "/data/wekan:/data/db"
 
