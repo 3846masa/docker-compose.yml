@@ -12,5 +12,5 @@ If you set basic auth, you should edit ``C9_USERNAME`` and ``C9_PASSWORD`` env.
 
 Your app deploy on port 8080, you can access via nginx.
 
-If you can access your app, you should edit nginx config in docker-compose.yml.
+If you access your app, you should edit nginx config in docker-compose.yml.
 
