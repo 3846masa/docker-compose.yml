@@ -1,0 +1,29 @@
+main:
+  image: kdelfour/cloud9-docker
+  volumes:
+    - "/data/cloud9:/workspace"
+  command: >
+    bash -c 
+    'node /cloud9/server.js --listen 0.0.0.0
+    --port 80 -w /workspace
+    --auth "${C9_USERNAME}:${C9_PASSWORD}"'
+  expose:
+    - 80
+    - 8080
+  environment:
+    VIRTUAL_HOST: cloud9.example.com
+    VIRTUAL_PORT: 80
+    C9_USERNAME: ""
+    C9_PASSWORD: ""
+    NODE_ENV: production
+
+nginx:
+  image: nginx:stable-alpine
+  volumes:
+    - "./nginx_default.conf:/etc/nginx/conf.d/default.conf:ro"
+  links:
+    - "main:cloud9"
+  environment:
+    VIRTUAL_HOST: 8080.cloud9.example.com
+    VIRTUAL_PORT: 80
+

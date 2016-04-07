@@ -18,6 +18,7 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 - [wekan (Kanban service)](./wekan)
 - [Owncloud (Web storage)](./owncloud)
 - [Rainloop (Web mailer)](./rainloop)
+- [Cloud9 (Web IDE)](./cloud9)
 - [slackin](./slackin)
 - [docker-webui](./docker-webui)
 
