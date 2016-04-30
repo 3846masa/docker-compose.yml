@@ -19,6 +19,6 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 - [Owncloud (Web storage)](./owncloud)
 - [Rainloop (Web mailer)](./rainloop)
 - [Cloud9 (Web IDE)](./cloud9)
+- [mitro (Password manager)](./mitro)
 - [slackin](./slackin)
 - [docker-webui](./docker-webui)
-
