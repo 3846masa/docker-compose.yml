@@ -24,5 +24,5 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 - [slackin](./slackin)
 - [docker-webui](./docker-webui)
 
-[potmum]: https://github.com/3846masa/docker-compose.yml/tree/master
+[potmum]: https://github.com/3846masa/docker-potmum/tree/master
 [mitro]: https://github.com/3846masa/mitro/tree/docker-compose
