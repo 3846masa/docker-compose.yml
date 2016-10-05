@@ -21,10 +21,9 @@ You should edit ``VIRTUAL_HOST`` env in each docker-compose.yml.
 - [Cloud9 (Web IDE)](./cloud9)
 - [potmum (Qiita-like wiki)][potmum]
 - [mitro (Password manager)][mitro]
-- [ngrokd][ngrokd]
+- [ngrokd](./ngrokd)
 - [slackin](./slackin)
 - [docker-webui](./docker-webui)
 
 [potmum]: https://github.com/3846masa/docker-potmum/tree/master
 [mitro]: https://github.com/3846masa/mitro/tree/docker-compose
-[ngrokd]: https://github.com/3846masa/docker-ngrokd/tree/master

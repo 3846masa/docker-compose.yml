@@ -1,0 +1,14 @@
+version: "2"
+services:
+  ngrokd:
+    image: 3846masa/ngrokd
+    network_mode: bridge
+    ports:
+      - "4443:4443"
+    environment:
+      VHOST_NAME: example.com
+      VIRTUAL_HOST: "*.example.com"
+      VIRTUAL_PORT: 80
+      HTTPS_METHOD: noredirect
+      CF_API_KEY: ""
+      CF_API_EMAIL: ""
