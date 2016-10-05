@@ -5,6 +5,3 @@
 [submodule "potmum"]
 	path = potmum
 	url = https://github.com/3846masa/docker-potmum.git
-[submodule "ngrokd"]
-	path = ngrokd
-	url = git@github.com:3846masa/docker-ngrokd.git
